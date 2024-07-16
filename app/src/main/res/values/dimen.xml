@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headingSize">22sp</dimen>
+    <dimen name="headingSize2">26sp</dimen>
+    <dimen name="paragraphSize">20sp</dimen>
+    <dimen name="unit">1dp</dimen>
+    <dimen name="small">10dp</dimen>
+    <dimen name="normal">20dp</dimen>
+    <dimen name="compact">150dp</dimen>
+</resources>

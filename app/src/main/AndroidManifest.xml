@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BitcoinCourseInUrdu"
+        tools:targetApi="31">
+        <activity
+            android:name=".Chapter9Activity"
+            android:label="@string/chapter_9_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter9Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter9Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter8Activity"
+            android:label="@string/chapter_8_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter8Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter8Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter7Activity"
+            android:label="@string/chapter_7_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter7Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter7Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter6Activity"
+            android:label="@string/chapter_6_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter6Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter6Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter5Activity"
+            android:label="@string/chapter_5_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter5Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter5Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter4Activity"
+            android:label="@string/chapter_4_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter4Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter4Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter3Activity"
+            android:label="@string/chapter_3_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter3Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter3Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter2Activity"
+            android:label="@string/chapter_2_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter2Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter2Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter1Activity"
+            android:label="@string/chapter_1_title"
+            android:exported="false"
+            android:parentActivityName=".Chapter1Fragments">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.mufasasolutions.bitcoincourseinurdu.Chapter1Fragments" />
+        </activity>
+        <activity
+            android:name=".Chapter9Fragments"
+            android:label="@string/chapter_9"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chapter8Fragments"
+            android:label="@string/chapter_8"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chapter7Fragments"
+            android:label="@string/chapter_7"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chapter6Fragments"
+            android:label="@string/chapter_6"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chapter5Fragments"
+            android:label="@string/chapter_5"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chapter4Fragments"
+            android:label="@string/chapter_4"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chapter3Fragments"
+            android:label="@string/chapter_3"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chapter2Fragments"
+            android:label="@string/chapter_2"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chapter1Fragments"
+            android:label="@string/chapter_1"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
+        </activity>
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+        <!-- android:value="@string/adMob_Id"/> -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

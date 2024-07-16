@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:paddingVertical="@dimen/small"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.92"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon1"
+                style="@style/icon_image"
+                android:src="@drawable/icon14"
+                android:contentDescription="@string/icon14Desc" />
+
+            <TextView
+                style="@style/homeTextStyle"
+                android:text="@string/icon14Text" />
+
+            <ImageView
+                android:id="@+id/icon2"
+                style="@style/icon_image"
+                android:src="@drawable/icon15"
+                android:contentDescription="@string/icon15Desc" />
+
+            <TextView
+                style="@style/homeTextStyle"
+                android:text="@string/icon15Text" />
+
+            <ImageView
+                android:id="@+id/icon3"
+                style="@style/icon_image"
+                android:src="@drawable/icon15"
+                android:contentDescription="@string/icon15Desc" />
+
+            <TextView
+                style="@style/homeTextStyle"
+                android:text="What is Market Order" />
+
+            <ImageView
+                android:id="@+id/icon4"
+                style="@style/icon_image"
+                android:src="@drawable/icon15"
+                android:contentDescription="@string/icon15Desc" />
+
+            <TextView
+                style="@style/homeTextStyle"
+                android:text="What is OCO Order" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

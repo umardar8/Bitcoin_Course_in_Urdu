@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="homeTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/normal</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/headingSize</item>
+    </style>
+    <style name="titleTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textSize">@dimen/headingSize</item>
+        <item name="android:paddingBottom">@dimen/small</item>
+    </style>
+    <style name="paragraphStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textSize">@dimen/paragraphSize</item>
+        <item name="android:layout_marginBottom">@dimen/normal</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="fragment_image">
+        <item name="android:layout_width">@dimen/compact</item>
+        <item name="android:layout_height">@dimen/compact</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="icon_image">
+        <item name="android:layout_width">@dimen/compact</item>
+        <item name="android:layout_height">@dimen/compact</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="chapter_box_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

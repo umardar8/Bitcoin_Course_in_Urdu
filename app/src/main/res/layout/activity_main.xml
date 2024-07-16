@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layoutDirection="ltr"
+        android:background="@color/blue"
+        android:padding="@dimen/small"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_en"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch1"
+            android:layout_width="48dp"
+            android:layout_height="32dp" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_ur"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.92"
+        android:layoutDirection="inherit"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap1"
+                    style="@style/icon_image"
+                    android:src="@drawable/icon1"
+                    android:contentDescription="@string/icon1Desc"/>
+
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_1"
+                        android:textSize="16sp"/>
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_1_title" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap2"
+                    style="@style/icon_image"
+                    android:src="@drawable/icon2"
+                    android:contentDescription="@string/icon1Desc"/>
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_2"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_2_title" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap3"
+                    style="@style/icon_image"
+                    android:src="@drawable/chapter3"
+                    android:contentDescription="@string/icon1Desc"/>
+
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_3"
+                        android:textSize="16sp"/>
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_3_title" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap4"
+                    style="@style/icon_image"
+                    android:src="@drawable/chapter4"
+                    android:contentDescription="@string/icon1Desc"/>
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_4"
+                        android:textSize="16sp"/>
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_4_title" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap5"
+                    style="@style/icon_image"
+                    android:src="@drawable/chapter5"
+                    android:contentDescription="@string/icon1Desc"/>
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_5"
+                        android:textSize="16sp"/>
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_5_title" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap6"
+                    style="@style/icon_image"
+                    android:src="@drawable/icon20"
+                    android:contentDescription="@string/icon1Desc"/>
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_6"
+                        android:textSize="16sp"/>
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_6_title" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap7"
+                    style="@style/icon_image"
+                    android:src="@drawable/icon17"
+                    android:contentDescription="@string/icon1Desc"/>
+
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_7"
+                        android:textSize="16sp"/>
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_7_title" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap8"
+                    style="@style/icon_image"
+                    android:src="@drawable/icon18"
+                    android:contentDescription="@string/icon1Desc"/>
+
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_8"
+                        android:textSize="16sp"/>
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_8_title" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chap9"
+                    style="@style/icon_image"
+                    android:src="@drawable/icon19"
+                    android:contentDescription="@string/icon1Desc"/>
+
+                <LinearLayout style="@style/chapter_box_text">
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_9"
+                        android:textSize="16sp"/>
+                    <TextView
+                        style="@style/homeTextStyle"
+                        android:text="@string/chapter_9_title" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--            <View-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="1dp"-->
+            <!--                android:background="@color/black"-->
+            <!--                android:layout_marginVertical="10dp" />-->
+
+            <!--            <HorizontalScrollView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:padding="10dp">-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+
+            <!--                    <ImageView-->
+            <!--                        android:id="@+id/bottom1"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:src="@drawable/bottom1"-->
+            <!--                        android:layout_margin="10dp"-->
+            <!--                        android:scaleType="centerCrop"/>-->
+
+            <!--                    <ImageView-->
+            <!--                        android:id="@+id/bottom2"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:src="@drawable/bottom2"-->
+            <!--                        android:layout_margin="10dp"-->
+            <!--                        android:scaleType="centerCrop"/>-->
+
+            <!--                </LinearLayout>-->
+            <!--            </HorizontalScrollView>-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="@string/support"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:textAlignment="center"-->
+            <!--                android:layout_marginHorizontal="20dp"-->
+            <!--                android:layout_marginBottom="20dp"-->
+            <!--                android:textSize="@dimen/normalTextSize"-->
+            <!--                android:textColor="@color/white" />-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--    <com.google.android.gms.ads.AdView-->
+    <!--        android:id="@+id/adView0"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="0.08"-->
+    <!--        ads:adSize="BANNER"-->
+    <!--        ads:adUnitId="@string/banner_adUnit"-->
+    <!--        android:layout_margin="@dimen/normal"-->
+    <!--        android:padding="@dimen/unit"/>-->
+
+</LinearLayout>

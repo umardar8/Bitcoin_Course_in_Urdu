@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".Lesson6Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/titleTextStyle"
+            android:textAlignment="center"
+            android:text="@string/icon6Text"/>
+
+        <ImageView
+            style="@style/fragment_image"
+            android:src="@drawable/icon6"
+            android:contentDescription="@string/icon6Desc"/>
+
+        <TextView
+            style="@style/paragraphStyle"
+            android:text="@string/lesson6_para1" />
+
+        <TextView
+            style="@style/paragraphStyle"
+            android:text="@string/lesson6_para2" />
+
+        <TextView
+            style="@style/paragraphStyle"
+            android:text="@string/lesson6_para3" />
+
+        <TextView
+            style="@style/paragraphStyle"
+            android:text="@string/lesson6_para4" />
+
+        <TextView
+            style="@style/paragraphStyle"
+            android:text="@string/lesson6_para5" />
+
+    <!--        <com.google.android.gms.ads.AdView-->
+    <!--            android:id="@+id/adView1"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            ads:adSize="BANNER"-->
+    <!--            ads:adUnitId="@string/banner_adUnit"-->
+    <!--            android:layout_margin="@dimen/normal"-->
+    <!--            android:padding="@dimen/unit"/>-->
+
+    </LinearLayout>
+
+</ScrollView>

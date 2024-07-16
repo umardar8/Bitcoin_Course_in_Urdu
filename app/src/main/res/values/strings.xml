@@ -1,0 +1,221 @@
+<resources>
+    <!-- Constant Strings   -->
+    <string name="app_name" translatable="false">Bitcoin Course in Urdu</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="support">Support Us for More FREE Content!</string>
+    <string name="switch_en" translatable="false">English</string>
+    <string name="switch_ur" translatable="false">اردو</string>
+
+    <!-- AdMob Integration   -->
+    <!-- Production   -->
+    <!--    <string name="adMob_Id" translatable="false"></string>-->
+    <!--    <string name="banner_adUnit" translatable="false"></string>-->
+    <!-- Sample   -->
+    <!--    <string name="adMob_Id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--    <string name="banner_adUnit" translatable="false">ca-app-pub-3940256099942544/9214589741</string>-->
+
+    <!-- Lesson 1.1 Strings   -->
+    <string name="icon1Text">1.1 Evolution of Currency</string>
+    <string name="icon1Desc" translatable="false">image of different currencies</string>
+    <string name="lesson1_para1">Story of Money in modern definition is anything that is accepted by a group of people in exchange for goods, services, and recourses. According to modern economists, money is defined by to play the following three roles:</string>
+    <string name="lesson1_heading1">A STORE OF VALUE</string>
+    <string name="lesson1_para2">Money allows you to postpone purchase or consumption until a later date</string>
+    <string name="lesson1_heading2">A UNIT OF ACCOUNT &amp; MEASUREMENT</string>
+    <string name="lesson1_para3">Money allows to assign value to different goods without having to compare them. For example, instead of saying that a car is worth 6 horses, you can say that a car is worth 1000€.</string>
+    <string name="lesson1_heading3">A MEDIUM OF EXCHANGE</string>
+    <string name="lesson1_para4">Money acts as medium to indirectly trade goods or services.</string>
+    <string name="lesson1_para5">There is however a disagreement on whether money is an intangible concept or tangible (physical)</string>
+    <string name="lesson1_para6">Some say that money cannot be touched or smelled, while currency in form of coins and notes are presentations and manifestations of a form of money.</string>
+    <string name="lesson1_para7">To better understand how modern money came to be, we need to briefly look at how money has evolved historically and took on the functions it has got today.</string>
+    <string name="lesson1_para8">According to the recorded history for around 3000b.c, people were trading goods in exchange for other good directly. They would for example trade fruit for food or some pairs of shoes for a goat, as so called “the barter system”. It was immensely difficult to find someone, who would want to exchange something you need, in exchange for what you have. Even more difficult it was to agree on the value of the goods to be exchanged.</string>
+    <string name="lesson1_para9">Later on, people started to use commodities such as wool, wheat, corn and etc. for trading. It was easier to maintain, carry and store these goods, and they were more widely accepted. These functions added even more to the value and demand for some commodities than others. Since these commodities functioned both as goods and mediums of exchange, consequently gold and silver coins were born as new mediums of trade, which had an even higher portability and storability.</string>
+    <string name="lesson1_para10">With the development and evolvement of human constitutions, coins were furthermore standardized and reached farther lands. Subsequently vaster and more frequent territorial and cross territorial trades were possible.</string>
+
+    <!-- Lesson 1.2 Strings   -->
+    <string name="icon1aText">1.2 From Temple Churches to Banks</string>
+    <string name="lesson1a_para1">There might be earlier examples of some sort of paper money in some early civilizations, which did not carry on and spread to other parts of the world, and we will not discuss that here.</string>
+    <string name="lesson1a_para2">In 1095 ac. Pope Urban II (1035 – 29 July 1099), who was the head of catholic church, pardoned every one of their past sins, who precipitated in the holy war to liberate Jerusalem from Muslims. After the liberations of Jerusalem from Fatimid Muslims in 1099, which is also known as the first crusades, huge amount Christian caravans from all around Europe would go on a pilgrimage to the holy land. It would take them months to complete the journey and they had to carry their wealth and expenses with them, which would make easy prey for looters and thieves.</string>
+    <string name="lesson1a_para3">A later established group within the crusaders, known as “The Templar Knights” took masonic vows to protect the pilgrims and their routes. They would collect pilgrims’ wealth in their local temple churches and gave them promissory letters or cheques to collect back their wealth in temple mount in Jerusalem.</string>
+    <string name="lesson1a_para4">Temple church London (built 1185 ac.) This temple church is an example of modern banks at its infancy, where the templar knights would collect pilgrim’s wealth.</string>
+    <string name="lesson1a_para5">This means, that there was a vast network of temple churches all around Europe with a headquarter in Jerusalem. The templar knights soon became wealthy and trustworthy and these temple churches not after long were involved in more businesses than offering security to pilgrims. Their credibility meant, that they afterwards could issue cheques with no real backup, and since they were private and independent from kings and popes, their fraudulence was more or less undetectable.</string>
+
+    <!-- Lesson 1.3 Strings   -->
+    <string name="icon1bText">1.3 From Cheques to Fiat Money</string>
+    <string name="lesson1b_para1">Before 1st world war, most currencies were directly pegged to gold. England was still a super power and a leading world economy. Since England was a major world trader, sterling pond was used instead of gold and therefore, was the world reserve currency. The word “reserve” for currencies meant they were exchangeable with gold. After the first world war England’s economy was devastated. They had spent 25% of their GDP on war and had lost more than 20% of their foreign assets.</string>
+    <string name="lesson1b_para2">Countries’ gold reserves grew smaller, and there was a need for a new system, since many countries couldn’t back their currencies with gold. After the first world war many currencies were no longer directly linked to gold and had to be exchanged to a third international currency, which was directly linked to gold. European countries were purchasing goods and armament from the US, and even England was borrowing huge sums from the US, because its gold reserves were down.</string>
+    <string name="lesson1b_para3">US entered the 1st world later and also for geographic reasons was less affected by the war. US had not only lost much in the 1st world was but it had also some gains. In the wake the Great Depression in 1930s England suspended its gold standard. The US survived and recovered better than others soon.</string>
+    <string name="lesson1b_para4">This meant that sterling pond was no longer standing alongside the US-dollar as an international reserve currency.</string>
+    <string name="lesson1b_para5">When England declared war on Germany, it had previously used its gold and cash reserves. Therefore, it was borrowing again in large sums to pay for ammunition and raw materials. During this time, the US whole labor was employed to supply raw material for war.</string>
+    <string name="lesson1b_para6">The shared need for a reliable global reserve currency in 1944, led to Bretton Woods Agreement, where 44 nations accepted the US dollar global reserve currency, since US had the largest gold supply.</string>
+    <string name="lesson1b_para7">Decades later the gold back dollar had to collapse. The US suffered economically during the Vietnam war. It had to print more paper money back by treasury debt, because more funds were need for Vietnam war. Countries had already predicted this inflation, and in early 1970s countries started demanding gold in exchanges for their dollars.</string>
+    <string name="lesson1b_para8">Dollars superiority as global reserve currency and America’s status as superpower was on the verge of a collapse.</string>
+    <string name="lesson1b_para9">This was when John D. Rockefeller came up with a solution. He went to his slaves. He persuaded the Shah in Iran and the apparently Muslim but pro-Zionist Al-Saud family and other Arab leaders to sell oil in dollars only. In other currencies oil prices went to the skies.</string>
+    <string name="lesson1b_para10">Saudi Arabia and other Zionist-slave Muslim-leaders did not only save the US from dying out but increased its power and economic dictatorship on the rest of the world. Countries instead of demanding Gold in exchange for dollar, were now desperate to continuously buy dollars to be able to purchase oil. In 1971 President Richard Nixon decoupled US-dollar from gold.</string>
+    <string name="lesson1b_para11">Then we entered the era of fiat money and long story short, later with the development of computers and internet money and banking got digitalized.</string>
+    <string name="lesson1b_para12">With the digitization of money and banking, a new evolution was on the way.</string>
+
+    <!-- Lesson 2.1 Strings   -->
+    <string name="icon2Text">2.1 Meet Bitcoin</string>
+    <string name="icon2Desc" translatable="false">image of a bitcoin</string>
+    <string name="lesson2_para1">In a world, where authorities, banks and corporations rule over people, money, commodities, resources and their value have been in the hands of a certain group of people or centralized. In every purchase and transactions, we pay several third parties.</string>
+    <string name="lesson2_para2">Well in such world, an anonymous person or group, which is a myth, so called “Satoshi Nakamoto” attempts to come with a better solution. In 2009 he reveals the papers, in which he introduces bitcoin and its function. To better understand bitcoin, we need to first dive a little into blockchain.</string>
+
+    <!-- Lesson 2.2 Strings   -->
+    <string name="icon3Text">2.2 Bitcoin Blockchain</string>
+    <string name="icon3Desc" translatable="false">image of bitcoin blockchain</string>
+    <string name="lesson3_para1">Bitcoin is a digital asset, not issued by a government or the transactions of which is not verified by banks and is in this sense decentralized. Bitcoin is basically transactions written on a ledger or a block. With each block having a limited size of 1 megabyte and a transaction speed 3.3 to 7 transactions per second, means that more and more blocks are needed for more transactions. Blocks are set in a chain or continuation of the previous blocks and in a fixed order, therefore called a blockchain. To better understand what bitcoin blockchain is, we need to take look at how blockchain works and how it is secured.</string>
+    <string name="lesson3_para2">Bitcoin blocks or ledger contain the information about senders, receivers and the number of transactions. Since bitcoin is decentralized, it means that ledger is available to the public and anyone can read and write on the blockchain. Bitcoin blockchain runs on a network of computers all around the world, in other words the computational workload is distributed and the blockchain is shared over a network of peers/computers, with each peer equally privileged. This network is called peer-to-peer(p2p) network of nodes.</string>
+
+    <!-- Lesson 2.3 Strings   -->
+    <string name="icon4Text">2.3 What is Blockchain</string>
+    <string name="icon4Desc" translatable="false">image of blockchain with different crypto-currencies</string>
+    <string name="lesson4_img1Desc" translatable="false">table of encryption of blocks in blockchain</string>
+    <string name="lesson4_para1">A blockchain is a special type of database. You may also have heard the term distributed ledger technology (or DLT) – in many cases, they\'re referring to the same thing.</string>
+    <string name="lesson4_para2">A blockchain has certain unique properties. There are rules about how data can be added, and once the data has been stored, it\'s virtually impossible to modify or delete it.</string>
+    <string name="lesson4_para3">Data is added over time in structures called blocks. Each block is built on top of the last and includes a piece of information that links back to the previous one. By looking at the most up-to-date block, we can check that it has been created after the last. So if we continue all the way down the chain, we\'ll reach our very first block – known as the genesis block.</string>
+    <string name="lesson4_para4">To analogize, suppose that you have a spreadsheet with two columns. In the first cell of the first row, you put whatever data you want to hold.</string>
+    <string name="lesson4_para5">The first cell\'s data is converted into a two-letter identifier, which will then be used as part of the next input. In this example, the two-letter identifier KP must be used to fill out the next cell in the second row (defKP). This means that if you change the first input data (abcAA), you\'d get a different combination of letters in every other cell.</string>
+    <string name="lesson4_para6">Looking at row 4 now, our most recent identifier is TH. Remember how we said you can\'t go back and remove or delete entries? That\'s because it would be easy for anyone to tell that it\'s been done, and they\'d just ignore your attempted change.</string>
+    <string name="lesson4_para7">Suppose you change the data in the very first cell – you\'d get a different identifier, which would mean your second block would have different data, leading to a different identifier in row 2, and so on. TH is, in essence, a product of all the information coming before it.</string>
+
+    <!-- Lesson 3.1 Strings   -->
+    <string name="icon5Text">3.1 What is Trading</string>
+    <string name="icon5Desc" translatable="false">image of a person analyzing the trading chart</string>
+    <string name="lesson5_para1">Trading is a fundamental economic concept that involves buying and selling assets. These can be goods and services, where the buyer pays the compensation to the seller. In other cases, the transaction can involve the exchange of goods and services between the trading parties.</string>
+    <string name="lesson5_para2">In the context of the financial markets, the assets being traded are called financial instruments. These can be stocks, bonds, currency pairs on the Forex market, options, futures, margin products, cryptocurrency, and many others. If these terms are new to you, don’t worry – we’ll explain them all later in this article.</string>
+    <string name="lesson5_para3">The term trading is commonly used to refer to short-term trading, where traders actively enter and exit positions over relatively short time frames. However, this is a slightly misleading assumption. In fact, trading may refer to a wide range of different strategies, such as day trading, swing trading, trend trading, and many others.</string>
+
+    <!-- Lesson 3.2 Strings   -->
+    <string name="icon16Text">Candlestick Chart</string>
+    <string name="icon16Desc" translatable="false">candlesticks in red and green</string>
+    <string name="lesson16_para1">Candlestick charts were originated in Japan over 100 years before the West had developed the bar charts and point-and-figure charts. In the 1700s, a Japanese man known as Homma discovered that as there was a link between price and the supply and demand of rice, the markets also were strongly influenced by the emotions of traders.</string>
+    <string name="lesson16_para2">The candlesticks are used for identifying trading patterns which help the technical analyst to set up their trades. These candlestick patterns are used for predicting the future direction of the price movements. The candlestick patterns are formed by grouping two or more candlesticks in a certain way. Sometimes powerful signals can be also given by just one candlestick.</string>
+    <string name="lesson16_para3">A daily candlestick charts shows the security’s open, high, low, and close price for the day. The candlestick’s wide or rectangle part is called the “real body” which shows the link between opening and closing prices. This real body shows the price range between the open and close of that day’s trading.</string>
+    <string name="lesson16_para4">When the real body is filled, black or red then it means that the close is lower than the open and is known as the bearish candle. It shows that the prices opened, the bears pushed the prices down and closed lower than the opening price.</string>
+    <string name="lesson16_para5">If the real body is empty, white or green then it means that the close was higher than the open known as the bullish candle. It shows that the prices opened, the bulls pushed the prices up and closed higher than the opening price.</string>
+    <string name="lesson16_para6">The thin vertical lines above and below the real body is known as the wicks or shadows which represents the high and low prices of the trading session. The upper shadow shows the high price and lower shadow shows the low prices reached during the trading session.</string>
+    <string name="lesson16_img1Desc" translatable="false">properties of green and red candlesticks</string>
+    <string name="lesson16_para7">The candlestick patterns can be divided into: \n<ul><li>Continuation Patterns</li>\n<li>Bullish Reversal Patterns</li>\n<li>Bearish Reversal Patterns</li></ul></string>
+    <string name="lesson16_para8">In this free course, we will discuss all 30 powerful candlestick patterns, but before that let us discuss how to read candlestick charts.</string>
+
+    <!-- Lesson 3.3 Strings   -->
+    <string name="icon6Text">3.3 Fundamental Analysis</string>
+    <string name="icon6Desc" translatable="false">person with computer doing some research</string>
+    <string name="lesson6_para1">Fundamental analysis is a method for assessing a financial asset’s valuation. A fundamental analyst studies both economic and financial factors to determine if the value of an asset is fair. These can include macroeconomic circumstances like the state of the wider economy, industry conditions, or the business connected to the asset (if there’s one). And these are often tracked through macroeconomics leading and lagging indicators.</string>
+    <string name="lesson6_para2">Once the fundamental analysis is complete, analysts aim to determine whether the asset is undervalued or overvalued. Investors can use this conclusion when making their investment decisions.</string>
+    <string name="lesson6_para3">In the case of cryptocurrencies, fundamental analysis may also include an emerging field of data science that concerns itself with public blockchain data called on-chain metrics. These metrics can include the network hash rate, the top holders, the number of addresses, analysis of transactions, and many more. Using the abundance of available data on public blockchains, analysts can create complex technical indicators that measure certain aspects of the overall health of the network.</string>
+    <string name="lesson6_para4">While fundamental analysis is widely used in the stock market or Forex, it\'s less suitable for cryptocurrencies in their current state. This asset class is so new that there simply isn’t a standardized, comprehensive framework for determining market valuations. What’s more, much of the market is driven by speculation and narratives. As such, fundamental factors will typically have negligible effects on the price of a cryptocurrency.</string>
+    <string name="lesson6_para5">However, more accurate ways to think about crypto asset valuation may be developed once the market matures.</string>
+
+    <!-- Lesson 3.4 Strings   -->
+    <string name="icon7Text">3.4 Technical Analysis</string>
+    <string name="icon7Desc" translatable="false">a tablet showing technical indicators</string>
+    <string name="lesson7_para1">Technical analysts work with a different approach. The core idea behind technical analysis is that historical price action may indicate how the market is likely to behave in the future.</string>
+    <string name="lesson7_para2">Technical analysts don’t try to find out the intrinsic value of an asset. Instead, they look at the historical trading activity and try to identify opportunities based on that. This can include analysis of price action and volume, chart patterns, the use of technical indicators, and many other charting tools. The goal of this analysis is to evaluate a given market’s strength or weakness.</string>
+    <string name="lesson7_para3">With that said, technical analysis isn’t only a tool for predicting the probabilities of future price movements. It can also be a useful framework for risk management. Since technical analysis provides a model for analyzing market structure, it makes managing trades more defined and measurable. In this context, measuring risk is the first step to managing it. This is why some technical analysts may not be considered strictly traders. They may use technical analysis purely as a framework for risk management.</string>
+    <string name="lesson7_para4">The practice of technical analysis can be applied to any financial market, and it’s widely used among cryptocurrency traders. But does technical analysis work? Well, as we’ve mentioned earlier, the valuation of the cryptocurrency markets is largely driven by speculation. This makes them an ideal playing field for technical analysts, as they can thrive by only considering technical factors.</string>
+
+    <!-- Lesson 3.5 Strings   -->
+    <string name="icon8Text">3.5 Portfolio Management</string>
+    <string name="icon8Desc" translatable="false">a bag full of crypto currency coins</string>
+    <string name="lesson8_para1">Portfolio management concerns itself with the creation and handling of a collection of investments. The portfolio itself is a grouping of assets – it could contain anything from Beanie Babies to real estate. If you’re exclusively trading cryptocurrencies, then it will probably be made up of some combination of Bitcoin and other digital coins and tokens.</string>
+    <string name="lesson8_para2">Your first step is to consider your expectations for the portfolio. Are you looking for a basket of investments that will remain relatively protected from volatility, or something riskier that might bring higher returns in the short term? Putting some thought into how you want to manage your portfolio is highly beneficial. Some might prefer a passive strategy – one where you leave your investments alone after you set them up. Others could take an active approach, where they continuously buy and sell assets to make profits.</string>
+
+    <!-- Lesson 3.6 Strings   -->
+    <string name="icon9Text">3.6 Risk Management</string>
+    <string name="icon9Desc" translatable="false">a person shielding against dangerous thunder</string>
+    <string name="lesson9_para1">Managing risk is vital to success in trading. This begins with the identification of the types of risk you may encounter:</string>
+    <string name="lesson9_heading1">Market Risk:</string>
+    <string name="lesson9_para2">the potential losses you could experience if the asset loses value</string>
+    <string name="lesson9_para3"><![CDATA[<b>Liquidity risk:</b> the potential losses arising from illiquid markets, where you cannot easily find buyers for your assets.]]></string>
+    <string name="lesson9_para4"><![CDATA[<b>Operational risk:</b> the potential losses that stem from operational failures. These may be due to human error, hardware/software failure, or intentional fraudulent conduct by employees.]]></string>
+    <string name="lesson9_para5"><![CDATA[<b>Systemic risk:</b> the potential losses caused by the failure of players in the industry you operate in, which impacts all businesses in that sector. As was the case in 2008, the collapse of the Lehman Brothers had a cascading effect on worldwide financial systems. As you can see, risk identification begins with the assets in your portfolio, but it should take into account both internal and external factors to be effective. Next, you’ll want to assess these risks. How often are you likely to encounter them? How severe are they? By weighing up the risks and figuring out their possible impact on your portfolio, you can rank them and develop appropriate strategies and responses. Systemic risk, for example, can be mitigated with diversification into different investments, and market risk can be lessened with the use of stop-losses.]]></string>
+
+    <!-- Lesson 4.1 Strings   -->
+    <string name="icon10Text">4.1 Day Trading</string>
+    <string name="icon10Desc" translatable="false">a person calculating his day profit</string>
+    <string name="lesson10_para1">Day trading is a strategy that involves entering and exiting positions within the same day. The term comes from legacy markets, referencing the fact that they’re only open for set periods during the day. Outside of those periods, day traders are not expected to keep any of their positions open.</string>
+    <string name="lesson10_para2">Cryptocurrency markets, as you probably know, are not subject to opening or closing times. You can trade around the clock every day of the year. Still, day trading in the context of cryptocurrency tends to refer to a trading style where the trader enters and exits positions within 24 hours.</string>
+    <string name="lesson10_para3">In day trading, you’ll often rely on technical analysis to determine which assets to trade. Because profits in such a short period can be minimal, you may opt to trade across a wide range of assets to try and maximize your returns. That said, some might exclusively trade the same pair for years.</string>
+    <string name="lesson10_para4">This style is obviously a very active trading strategy. It can be highly profitable, but it carries with it a significant amount of risk. As such, day trading is generally better suited to experienced traders</string>
+
+    <!-- Lesson 4.2 Strings   -->
+    <string name="icon11Text">4.2 Swing Trading</string>
+    <string name="icon11Desc" translatable="false">candlesticks swinging up and down</string>
+    <string name="lesson11_para1">In swing trading, you’re still trying to profit off market trends, but the time horizon is longer – positions are typically held anywhere from a couple of days to a couple of months.</string>
+    <string name="lesson11_para2">Often, your goal will be to identify an asset that looks undervalued and is likely to increase in value. You would purchase this asset, then sell it when the price rises to generate a profit. Or you can try to find overvalued assets that are likely to decrease in value. Then, you could sell some of them at a high price, hoping to buy them back for a lower price.</string>
+    <string name="lesson11_para3">As with day trading, many swing traders use technical analysis. However, because their strategy plays out across a longer period, fundamental analysis may also be a valuable tool.</string>
+    <string name="lesson11_para4">Swing trading tends to be a more beginner-friendly strategy. Mainly because it doesn’t come with the stress of fast-paced day trading. Where the latter is characterized by rapid decision-making and a lot of screen time, swing trading allows you to take your time.</string>
+
+    <!-- Lesson 4.3 Strings   -->
+    <string name="icon12Text">4.3 Position Trading</string>
+    <string name="icon12Desc" translatable="false">two person thinking about buy and sell position</string>
+    <string name="lesson12_para1">Position (or trend) trading is a long-term strategy. Traders purchase assets to hold for extended periods (generally measured in months). Their goal is to make a profit by selling those assets at a higher price in the future.</string>
+    <string name="lesson12_para2">What distinguishes position trades from long-term swing trades is the rationale behind placing the trade. Position traders are concerned with trends that can be observed over extended periods – they’ll try to profit from the overall market direction. Swing traders, on the other hand, typically seek to predict “swings” in the market that don’t necessarily correlate with the broader trend.</string>
+    <string name="lesson12_para3">It’s not uncommon to see position traders favor fundamental analysis, purely because their time preference allows them to watch fundamental events materialize. That’s not to say technical analysis isn’t used. While position traders work on the assumption that the trend will continue, the use of technical indicators can alert them to the possibility of a trend reversal.</string>
+    <string name="lesson12_para4">Like swing trading, position trading is an ideal strategy for beginners. Once again, the long time horizon gives them ample opportunity to deliberate on their decisions.</string>
+
+    <!-- Lesson 4.4 Strings   -->
+    <string name="icon13Text">4.4 Scalping</string>
+    <string name="icon13Desc" translatable="false">two lines marked on chart with sergical scalpel</string>
+    <string name="lesson13_para1">Of all of the strategies discussed, scalping takes place across the smallest time frames. Scalpers attempt to game small fluctuations in price, often entering and exiting positions within minutes (or even seconds). In most cases, they’ll use technical analysis to try and predict price movements and exploit bid-ask spread and other inefficiencies to make a profit. Due to the short time frames, scalping trades often give a small percentage of profits – usually lower than 1%. But scalping is a numbers game, so repeated small profits can add up over time.</string>
+    <string name="lesson13_para2">Scalping is by no means a beginner’s strategy. An in-depth understanding of the markets, the platforms you’re trading on, and technical analysis are vital to success. That said, for traders that know what they’re doing, identifying the right patterns and taking advantage of short-term fluctuations can be highly profitable.</string>
+
+    <!-- Lesson 5.1 Strings   -->
+    <string name="icon14Text">5.1 What is Limit Order</string>
+    <string name="icon14Desc" translatable="false">a candlestick chart with buy and sell option</string>
+    <string name="lesson14_para1">A limit order is an order to buy or sell an asset at a specific price or better. This price is called the limit price. Limit buy orders will execute at the limit price or lower, while limit sell orders will execute at the limit price or higher.</string>
+    <string name="lesson14_para2">When you’re setting a limit order, you’re basically saying: “I’d like to execute this order at this specific price or better, but never worse.\"</string>
+    <string name="lesson14_para3">Using a limit order allows you to have more control over your entry or exit for a given market. In fact, it guarantees that your order will never fill at a worse price than your desired price. However, that also comes with a downside. The market may never reach your price, leaving your order unfilled. In many cases, this can mean losing out on a potential trade opportunity.</string>
+    <string name="lesson14_para4">Deciding when to use a limit order or market order can vary with each trader. Some traders may use only one or the other, while other traders will use both – depending on the circumstances. The important thing is to understand how they work so you can decide for yourself.</string>
+
+    <!-- Lesson 5.2 Strings   -->
+    <string name="icon15Text">5.2 What is Stop-Loss Order</string>
+    <string name="icon15Desc" translatable="false">a person trying to stop his loss with a thread</string>
+    <string name="lesson15_para1">Now that we know what market and limit orders are, let’s talk about stop-loss orders. A stop-loss order is a type of limit or market order that’s only activated when a certain price is reached. This price is called the stop price.</string>
+    <string name="lesson15_para2">The purpose of a stop-loss order is mainly to limit losses. Every trade needs to have an invalidation point, which is a price level that you should define in advance. This is the level where you say that your initial idea was wrong, meaning that you should exit the market to prevent further losses. So, the invalidation point is where you would typically put your stop-loss order.</string>
+    <string name="lesson15_para3">How does a stop-loss order work? As we’ve mentioned, the stop-loss can be both a limit or a market order. This is why these variants may also be referred to as stop-limit and stop-market orders. The key thing to understand is that the stop-loss only activates when a certain price is reached (the stop price). When the stop price is reached, it activates either a market or a limit order. You basically set the stop price as the trigger for your market or limit order.</string>
+    <string name="lesson15_para4">However, there is one thing you should keep in mind. We know that limit orders only fill at the limit price or better, but never worse. If you’re using a stop-limit order as your stop-loss and the market crashes violently, it may instantly move away from your limit price, leaving your order unfilled. In other words, the stop price would trigger your stop-limit order, but the limit order would remain unfilled due to the sharp price drop. This is why stop-market orders are considered safer than stop-limit orders. They ensure that even under extreme market conditions, you’ll be guaranteed to exit the market once your invalidation point is reached.</string>
+
+    <!-- Lesson 17 Strings   -->
+    <string name="icon17Text">Bullish Reversal Patterns</string>
+    <string name="icon17Desc" translatable="false">bear trying to pull back the bull</string>
+
+    <!-- Lesson 18 Strings   -->
+    <string name="icon18Text">Bearish Reversal Patterns</string>
+    <string name="icon18Desc" translatable="false">bull fighting against bear</string>
+
+    <!-- Lesson 19 Strings   -->
+    <string name="icon19Text">Continuation Patterns</string>
+    <string name="icon19Desc" translatable="false">bear and bull fighting equally</string>
+
+    <!-- Lesson 20 Strings   -->
+    <string name="icon20Text">Technical Indicators</string>
+    <string name="icon20Desc" translatable="false">image of indicators used in trading</string>
+
+    <!-- Coming Soon Fragment Strings   -->
+    <string name="coming_soon1">Coming Soon in Next Update</string>
+    <string name="coming_soon3"><u>This Course is worth $500</u></string>
+    <string name="coming_soon4">but we are providing it for <u>FREE</u></string>
+    <string name="coming_soon5">Please support us by sharing this app with your friends and leave reviews on PlayStore</string>
+
+    <!-- Chapters Strings   -->
+    <string name="chapter_1">Chapter 1</string>
+    <string name="chapter_1_title">Introduction &amp; History</string>
+    <string name="chapter_2">Chapter 2</string>
+    <string name="chapter_2_title">Understand Bitcoin Technology</string>
+    <string name="chapter_3">Chapter 3</string>
+    <string name="chapter_3_title">Trading Fundamentals</string>
+    <string name="chapter_4">Chapter 4</string>
+    <string name="chapter_4_title">Types of Trading</string>
+    <string name="chapter_5">Chapter 5</string>
+    <string name="chapter_5_title">Types of Orders</string>
+    <string name="chapter_6">Chapter 6</string>
+    <string name="chapter_6_title">Advanced Trading</string>
+    <string name="chapter_7">Chapter 7</string>
+    <string name="chapter_7_title">Bullish Reversal Patterns</string>
+    <string name="chapter_8">Chapter 8</string>
+    <string name="chapter_8_title">Bearish Reversal Patterns</string>
+    <string name="chapter_9">Chapter 9</string>
+    <string name="chapter_9_title">Continuation Patterns</string>
+</resources>
