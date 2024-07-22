@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Constant Strings   -->
+    <!-- Basic Strings   -->
+    <string name="app_name">بٹ کوائن کورس اردو میں</string>
     <string name="support">مزید مفت مواد کے لیے ہمارا ساتھ دیں!</string>
+    <string name="button_previous">پیچھے</string>
+    <string name="button_next">آگے</string>
+
     <!-- Lesson 1 Strings   -->
     <string name="icon1Text">کرنسی کا آغاز</string>
     <string name="lesson1_para1">جدید تعریف میں پیسے کی کہانی وہ چیز ہے جسے لوگوں کے ایک گروپ نے سامان، خدمات اور وسائل کے بدلے میں قبول کیا ہے۔ جدید معاشی ماہرین کے مطابق، رقم کی تعریف درج ذیل تین کرداروں سے ہوتی ہے:</string>
@@ -19,7 +23,7 @@
     <string name="lesson1_para10">انسانی آئینوں کی ترقی اور ارتقاء کے ساتھ، سکے مزید معیاری ہوئے اور دور دراز علاقوں تک پہنچ گئے۔ اس کے بعد وسیع تر اور زیادہ بار بار علاقائی اور کراس علاقائی تجارت ممکن ہوئی۔</string>
 
     <!-- Lesson 1a Strings   -->
-    <string name="icon1aText">مندر گرجا گھروں سے بنکوں تک</string>
+    <string name="icon1aText">مندر گرجا گھر سے بنک تک</string>
     <string name="lesson1a_para1">کچھ ابتدائی تہذیبوں میں کاغذی کرنسی کی اس سے پہلے کی مثالیں ہو سکتی ہیں، جو آگے نہیں بڑھیں اور دنیا کے دوسرے حصوں میں پھیل گئیں، اور ہم یہاں اس پر بات نہیں کریں گے۔</string>
     <string name="lesson1a_para2">جیسا کہ آپ جانتے ہیں 1095ac میں۔ پوپ اربن دوم (1035 - 29 جولائی 1099)، جو کیتھولک چرچ کے سربراہ تھے، نے ان کے پچھلے گناہوں میں سے ہر ایک کو معاف کر دیا، جنہوں نے یروشلم کو مسلمانوں سے آزاد کرانے کے لیے مقدس جنگ میں حصہ لیا۔ 1099 میں فاطمی مسلمانوں سے یروشلم کی آزادی کے بعد، جسے پہلی صلیبی جنگیں بھی کہا جاتا ہے، پورے یورپ سے بڑی تعداد میں عیسائی قافلے مقدس سرزمین کی زیارت پر جائیں گے۔ انہیں سفر مکمل کرنے میں مہینوں لگیں گے اور انہیں اپنی دولت اور اخراجات اپنے ساتھ لے جانے پڑیں گے جس سے لٹیروں اور چوروں کا آسان شکار ہو جائے گا۔</string>
     <string name="lesson1a_para3">صلیبیوں کے اندر ایک بعد میں قائم کردہ گروہ، جسے "ٹیمپلر نائٹس" کے نام سے جانا جاتا ہے، نے حجاج اور ان کے راستوں کی حفاظت کے لیے معماری قسمیں کھائیں۔ وہ اپنے مقامی مندر کے گرجا گھروں میں زائرین کی دولت جمع کرتے اور انہیں یروشلم کے مندر کے پہاڑ میں اپنی دولت واپس لینے کے لیے وعدہ نامہ یا چیک دیتے۔</string>
@@ -41,7 +45,7 @@
     <string name="lesson1b_para11">پھر ہم فیاٹ منی اور لمبی کہانی مختصر کے دور میں داخل ہوئے، بعد میں کمپیوٹر اور انٹرنیٹ کی ترقی کے ساتھ پیسہ اور بینکنگ ڈیجیٹل ہوگئی۔</string>
     <string name="lesson1b_para12">پیسے اور بینکنگ کے ڈیجیٹلائزیشن کے ساتھ، ایک نئے ارتقاء کے راستے پر تھا.</string>
     <!-- Lesson 2 Strings   -->
-    <string name="icon2Text">بٹ کوائن (Bitcoin) سے ملیں۔</string>
+    <string name="icon2Text">بٹ کوائن سے ملیں۔</string>
     <string name="lesson2_para1">ایک ایسی دنیا میں، جہاں حکام، بینک اور کارپوریشنز لوگوں پر حکمرانی کرتے ہیں، پیسہ، اشیاء، وسائل اور ان کی قیمت لوگوں کے ایک مخصوص گروہ یا مرکزیت کے ہاتھ میں رہی ہے۔ ہر خریداری اور لین دین میں، ہم کئی فریقین کو ادائیگی کرتے ہیں۔</string>
     <string name="lesson2_para2">ایسی دنیا میں، ایک گمنام شخص یا گروہ، جو ایک افسانہ ہے، جسے "ساتوشی ناکاموتو" کہا جاتا ہے، ایک بہتر حل کے ساتھ آنے کی کوشش کرتا ہے۔ 2009 میں اس نے کاغذات کا انکشاف کیا، جس میں اس نے بٹ کوائن اور اس کے کام کو متعارف کرایا ہے۔ بٹ کوائن کو بہتر طور پر سمجھنے کے لیے، ہمیں پہلے بلاک چین میں تھوڑا سا غوطہ لگانے کی ضرورت ہے۔</string>
     <!-- Lesson 3 Strings   -->
@@ -164,22 +168,22 @@
     <string name="coming_soon5">براہ کرم اس ایپ کو اپنے دوستوں کے ساتھ شیئر کریں اور پلے اسٹور پر جائزے (reviews) دیں۔</string>
 
     <!-- Chapters Strings   -->
-    <string name="chapter_1">باب 1 ۔</string>
+    <string name="chapter_1">حصہ ایک ۔</string>
     <string name="chapter_1_title">بٹ کوائن کا تعارف اور تاریخ</string>
-    <string name="chapter_2">باب 2 ۔</string>
-    <string name="chapter_2_title">بٹ کوائن ٹیکنالوجی کی سمجھ</string>
-    <string name="chapter_3">باب 3 ۔</string>
+    <string name="chapter_2">حصہ دوم ۔</string>
+    <string name="chapter_2_title">بٹ کوائن ٹیکنالوجی کو سمجھیں</string>
+    <string name="chapter_3">باب تین ۔</string>
     <string name="chapter_3_title">ٹریڈنگ کے بنیادی اصول</string>
-    <string name="chapter_4">باب 4 ۔</string>
-    <string name="chapter_4_title">تجارت کی اقسام</string>
-    <string name="chapter_5">باب 5 ۔</string>
+    <string name="chapter_4">باب چار ۔</string>
+    <string name="chapter_4_title">ٹریڈنگ کی اقسام</string>
+    <string name="chapter_5">باب پانچ ۔</string>
     <string name="chapter_5_title">آرڈر کی اقسام</string>
-    <string name="chapter_6">باب 6 ۔</string>
-    <string name="chapter_6_title">اعلی درجے کی ٹریڈنگ</string>
-    <string name="chapter_7">باب 7 ۔</string>
-    <string name="chapter_7_title">بیئرش ریورسل پیٹرن (Bearish Reversal)</string>
-    <string name="chapter_8">باب 8 ۔</string>
-    <string name="chapter_8_title">بیئرش ریورسل پیٹرن (Bearish Reversal)</string>
-    <string name="chapter_9">باب 9 ۔</string>
-    <string name="chapter_9_title">تسلسل پیٹرن (Continuation)</string>
+    <string name="chapter_6">باب چھ ۔</string>
+    <string name="chapter_6_title">ایڈوانسڈ ٹریڈنگ</string>
+    <string name="chapter_7">باب سات ۔</string>
+    <string name="chapter_7_title">بُولِش ریورسل پیٹرن</string>
+    <string name="chapter_8">باب آٹھ ۔</string>
+    <string name="chapter_8_title">بیئرش ریورسل پیٹرن</string>
+    <string name="chapter_9">باب نو ۔</string>
+    <string name="chapter_9_title">تسلسل پیٹرن</string>
 </resources>

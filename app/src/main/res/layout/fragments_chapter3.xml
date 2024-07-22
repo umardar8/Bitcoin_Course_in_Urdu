@@ -27,7 +27,7 @@
                 android:contentDescription="@string/icon5Desc" />
 
             <TextView
-                style="@style/homeTextStyle"
+                style="@style/fragmentsTextStyle"
                 android:text="@string/icon5Text" />
 
             <ImageView
@@ -37,7 +37,7 @@
                 android:contentDescription="@string/icon16Desc" />
 
             <TextView
-                style="@style/homeTextStyle"
+                style="@style/fragmentsTextStyle"
                 android:text="@string/icon16Text" />
 
             <ImageView
@@ -47,7 +47,7 @@
                 android:contentDescription="@string/icon6Desc" />
 
             <TextView
-                style="@style/homeTextStyle"
+                style="@style/fragmentsTextStyle"
                 android:text="@string/icon6Text" />
 
             <ImageView
@@ -57,7 +57,7 @@
                 android:contentDescription="@string/icon7Desc" />
 
             <TextView
-                style="@style/homeTextStyle"
+                style="@style/fragmentsTextStyle"
                 android:text="@string/icon7Text" />
 
             <ImageView
@@ -67,7 +67,7 @@
                 android:contentDescription="@string/icon8Desc" />
 
             <TextView
-                style="@style/homeTextStyle"
+                style="@style/fragmentsTextStyle"
                 android:text="@string/icon8Text" />
 
             <ImageView
@@ -77,7 +77,7 @@
                 android:contentDescription="@string/icon9Desc" />
 
             <TextView
-                style="@style/homeTextStyle"
+                style="@style/fragmentsTextStyle"
                 android:text="@string/icon9Text" />
 
         </LinearLayout>

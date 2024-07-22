@@ -5,7 +5,16 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingBottom">@dimen/normal</item>
         <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">@dimen/headingSize</item>
+    </style>
+    <style name="fragmentsTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/normal</item>
+        <item name="fontFamily">@font/nunito_bold</item>
         <item name="android:textAlignment">center</item>
+        <item name="android:justificationMode">inter_word</item>
         <item name="android:textSize">@dimen/headingSize</item>
     </style>
     <style name="titleTextStyle">
