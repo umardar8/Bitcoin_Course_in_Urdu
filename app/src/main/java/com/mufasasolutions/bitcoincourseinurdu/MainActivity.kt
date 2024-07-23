@@ -46,8 +46,8 @@ class MainActivity : AppCompatActivity() {
         val chap5 = binding.chap5
         val chap6 = binding.chap6
         val chap7 = binding.chap7
-
-
+        val chap8 = binding.chap8
+        val chap9 = binding.chap9
 
 
         chap1.setOnClickListener {
@@ -76,6 +76,16 @@ class MainActivity : AppCompatActivity() {
         }
         chap7.setOnClickListener {
             val intent = Intent(this, Chapter7Fragments::class.java)
+            startActivity(intent)
+        }
+
+        chap8.setOnClickListener {
+            val intent = Intent(this, Chapter8Fragments::class.java)
+            startActivity(intent)
+        }
+
+        chap9.setOnClickListener {
+            val intent = Intent(this, Chapter9Fragments::class.java)
             startActivity(intent)
         }
 

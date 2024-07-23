@@ -46,7 +46,7 @@ class Chapter6Activity : AppCompatActivity() {
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         when (num) {
-            1 -> fragmentTransaction.replace(R.id.frameLayout, Lesson18Fragment())
+            1 -> fragmentTransaction.replace(R.id.frameLayout, Lesson20Fragment())
         }
         fragmentTransaction.commit()
     }

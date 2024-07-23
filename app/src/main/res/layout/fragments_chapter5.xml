@@ -33,12 +33,12 @@
             <ImageView
                 android:id="@+id/icon2"
                 style="@style/icon_image"
-                android:src="@drawable/icon5c"
+                android:src="@drawable/icon5b"
                 android:contentDescription="@string/icon15Desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="@string/icon5c_Text" />
+                android:text="@string/icon5b_Text" />
 
             <ImageView
                 android:id="@+id/icon3"

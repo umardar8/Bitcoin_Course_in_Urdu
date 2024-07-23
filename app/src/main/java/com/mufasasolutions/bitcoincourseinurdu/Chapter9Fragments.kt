@@ -12,9 +12,7 @@ class Chapter9Fragments : AppCompatActivity() {
         binding = FragmentsChapter9Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val icon1 = binding.icon1
-
-        icon1.setOnClickListener {
+        binding.icon1.setOnClickListener {
             val intent = Intent(this, Chapter9Activity::class.java)
             intent.putExtra("number", 1)
             startActivity(intent)

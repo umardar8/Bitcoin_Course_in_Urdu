@@ -30,6 +30,56 @@
                 style="@style/fragmentsTextStyle"
                 android:text="@string/icon19Text" />
 
+            <ImageView
+                android:id="@+id/icon2"
+                style="@style/icon_image"
+                android:src="@drawable/icon19"
+                android:contentDescription="@string/icon19Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon19Text" />
+
+            <ImageView
+                android:id="@+id/icon3"
+                style="@style/icon_image"
+                android:src="@drawable/icon19"
+                android:contentDescription="@string/icon19Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon19Text" />
+
+            <ImageView
+                android:id="@+id/icon4"
+                style="@style/icon_image"
+                android:src="@drawable/icon19"
+                android:contentDescription="@string/icon19Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon19Text" />
+
+            <ImageView
+                android:id="@+id/icon5"
+                style="@style/icon_image"
+                android:src="@drawable/icon19"
+                android:contentDescription="@string/icon19Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon19Text" />
+
+            <ImageView
+                android:id="@+id/icon6"
+                style="@style/icon_image"
+                android:src="@drawable/icon19"
+                android:contentDescription="@string/icon19Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon19Text" />
+
         </LinearLayout>
 
     </ScrollView>

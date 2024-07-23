@@ -30,6 +30,106 @@
                 style="@style/fragmentsTextStyle"
                 android:text="@string/icon17Text" />
 
+            <ImageView
+                android:id="@+id/icon2"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon3"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon4"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon5"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon6"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon7"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon8"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon9"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon10"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
+            <ImageView
+                android:id="@+id/icon11"
+                style="@style/icon_image"
+                android:src="@drawable/icon17"
+                android:contentDescription="@string/icon17Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="@string/icon17Text" />
+
         </LinearLayout>
 
     </ScrollView>

@@ -19,7 +19,7 @@
 
         <ImageView
             style="@style/fragment_image"
-            android:src="@drawable/icon5d"
+            android:src="@drawable/icon5b"
             android:contentDescription="@string/icon12Desc"/>
 
         <TextView

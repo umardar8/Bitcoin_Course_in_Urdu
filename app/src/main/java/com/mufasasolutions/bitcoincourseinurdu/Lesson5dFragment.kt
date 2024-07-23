@@ -5,11 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.mufasasolutions.bitcoincourseinurdu.databinding.FragmentLesson18bBinding
+import com.mufasasolutions.bitcoincourseinurdu.databinding.FragmentLesson5dBinding
 
 class Lesson5dFragment : Fragment() {
 
-    private lateinit var binding: FragmentLesson18bBinding
+    private lateinit var binding: FragmentLesson5dBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -19,7 +19,7 @@ class Lesson5dFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentLesson18bBinding.inflate(layoutInflater, container, false)
+        binding = FragmentLesson5dBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 

@@ -28,7 +28,7 @@
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Technical Indicator 1" />
+                android:text="Moving Average (MA)" />
 
             <ImageView
                 android:id="@+id/icon2"
@@ -38,7 +38,7 @@
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Technical Indicator 2" />
+                android:text="Exponential Moving Average (EMA)" />
 
             <ImageView
                 android:id="@+id/icon3"
@@ -48,7 +48,7 @@
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Technical Indicator 3" />
+                android:text="Moving Average Convergence Divergence (MACD)" />
 
             <ImageView
                 android:id="@+id/icon4"
@@ -58,7 +58,27 @@
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Technical Indicator 4" />
+                android:text="Relative Strength Index (RSI)" />
+
+            <ImageView
+                android:id="@+id/icon5"
+                style="@style/icon_image"
+                android:src="@drawable/icon1"
+                android:contentDescription="@string/icon1Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="Bollinger Bands" />
+
+            <ImageView
+                android:id="@+id/icon6"
+                style="@style/icon_image"
+                android:src="@drawable/icon1"
+                android:contentDescription="@string/icon1Desc" />
+
+            <TextView
+                style="@style/fragmentsTextStyle"
+                android:text="Ichimoku Cloud" />
 
         </LinearLayout>
 
