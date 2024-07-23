@@ -3,7 +3,6 @@ package com.mufasasolutions.bitcoincourseinurdu
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mufasasolutions.bitcoincourseinurdu.databinding.ActivityChapter2Binding
 import com.mufasasolutions.bitcoincourseinurdu.databinding.ActivityChapter5Binding
 
 class Chapter5Activity : AppCompatActivity() {
@@ -48,9 +47,9 @@ class Chapter5Activity : AppCompatActivity() {
         val fragmentTransaction = fragmentManager.beginTransaction()
         when (num) {
             1 -> fragmentTransaction.replace(R.id.frameLayout, Lesson14Fragment())
-            2 -> fragmentTransaction.replace(R.id.frameLayout, Lesson15Fragment())
-            3 -> fragmentTransaction.replace(R.id.frameLayout, Lesson17Fragment())
-            4 -> fragmentTransaction.replace(R.id.frameLayout, Lesson18aFragment())
+            2 -> fragmentTransaction.replace(R.id.frameLayout, Lesson5bFragment())
+            3 -> fragmentTransaction.replace(R.id.frameLayout, Lesson15Fragment())
+            4 -> fragmentTransaction.replace(R.id.frameLayout, Lesson5dFragment())
         }
         fragmentTransaction.commit()
     }

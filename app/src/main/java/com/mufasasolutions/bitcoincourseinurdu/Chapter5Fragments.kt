@@ -12,30 +12,29 @@ class Chapter5Fragments : AppCompatActivity() {
         binding = FragmentsChapter5Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val icon14 = binding.icon1
-        val icon15 = binding.icon2
-        val icon16 = binding.icon3
-        val icon17 = binding.icon4
-
-        icon14.setOnClickListener {
+        binding.icon1.setOnClickListener {
             val intent = Intent(this, Chapter5Activity::class.java)
             intent.putExtra("number", 1)
             startActivity(intent)
         }
-        icon15.setOnClickListener {
+
+        binding.icon2.setOnClickListener {
             val intent = Intent(this, Chapter5Activity::class.java)
             intent.putExtra("number", 2)
             startActivity(intent)
         }
-        icon16.setOnClickListener {
+
+        binding.icon3.setOnClickListener {
             val intent = Intent(this, Chapter5Activity::class.java)
             intent.putExtra("number", 3)
             startActivity(intent)
         }
-        icon17.setOnClickListener {
+
+        binding.icon4.setOnClickListener {
             val intent = Intent(this, Chapter5Activity::class.java)
             intent.putExtra("number", 4)
             startActivity(intent)
         }
+
     }
 }

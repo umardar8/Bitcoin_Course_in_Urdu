@@ -33,12 +33,12 @@
             <ImageView
                 android:id="@+id/icon2"
                 style="@style/icon_image"
-                android:src="@drawable/icon15"
+                android:src="@drawable/icon5c"
                 android:contentDescription="@string/icon15Desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="@string/icon15Text" />
+                android:text="@string/icon5c_Text" />
 
             <ImageView
                 android:id="@+id/icon3"
@@ -48,17 +48,18 @@
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="What is Market Order" />
+                android:text="@string/icon15Text" />
+
 
             <ImageView
                 android:id="@+id/icon4"
                 style="@style/icon_image"
-                android:src="@drawable/icon15"
+                android:src="@drawable/icon5d"
                 android:contentDescription="@string/icon15Desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="What is OCO Order" />
+                android:text="@string/icon5d_Text" />
 
         </LinearLayout>
 
