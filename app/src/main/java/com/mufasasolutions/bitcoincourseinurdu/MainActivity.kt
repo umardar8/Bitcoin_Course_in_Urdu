@@ -39,55 +39,45 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        val chap1 = binding.chap1
-        val chap2 = binding.chap2
-        val chap3 = binding.chap3
-        val chap4 = binding.chap4
-        val chap5 = binding.chap5
-        val chap6 = binding.chap6
-        val chap7 = binding.chap7
-        val chap8 = binding.chap8
-        val chap9 = binding.chap9
 
-
-        chap1.setOnClickListener {
+        binding.chap1.setOnClickListener {
             val intent = Intent(this, Chapter1Fragments::class.java)
             startActivity(intent)
         }
-        chap2.setOnClickListener {
+        binding.chap2.setOnClickListener {
             val intent = Intent(this, Chapter2Fragments::class.java)
             startActivity(intent)
         }
-        chap3.setOnClickListener {
+        binding.chap3.setOnClickListener {
             val intent = Intent(this, Chapter3Fragments::class.java)
             startActivity(intent)
         }
-        chap4.setOnClickListener {
+        binding.chap4.setOnClickListener {
             val intent = Intent(this, Chapter4Fragments::class.java)
             startActivity(intent)
         }
-        chap5.setOnClickListener {
+        binding.chap5.setOnClickListener {
             val intent = Intent(this, Chapter5Fragments::class.java)
             startActivity(intent)
         }
-        chap6.setOnClickListener {
+        binding.chap6.setOnClickListener {
             val intent = Intent(this, Chapter6Fragments::class.java)
             startActivity(intent)
         }
-        chap7.setOnClickListener {
-            val intent = Intent(this, Chapter7Fragments::class.java)
-            startActivity(intent)
-        }
-
-        chap8.setOnClickListener {
-            val intent = Intent(this, Chapter8Fragments::class.java)
-            startActivity(intent)
-        }
-
-        chap9.setOnClickListener {
-            val intent = Intent(this, Chapter9Fragments::class.java)
-            startActivity(intent)
-        }
+//        binding.chap7.setOnClickListener {
+//            val intent = Intent(this, Chapter7Fragments::class.java)
+//            startActivity(intent)
+//        }
+//
+//        binding.chap8.setOnClickListener {
+//            val intent = Intent(this, Chapter8Fragments::class.java)
+//            startActivity(intent)
+//        }
+//
+//        binding.chap9.setOnClickListener {
+//            val intent = Intent(this, Chapter9Fragments::class.java)
+//            startActivity(intent)
+//        }
 
     }
 }

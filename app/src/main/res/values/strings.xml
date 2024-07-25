@@ -165,7 +165,7 @@
     <string name="lesson13_para1">Of all of the strategies discussed, scalping takes place across the smallest time frames. Scalpers attempt to game small fluctuations in price, often entering and exiting positions within minutes (or even seconds). In most cases, they’ll use technical analysis to try and predict price movements and exploit bid-ask spread and other inefficiencies to make a profit. Due to the short time frames, scalping trades often give a small percentage of profits – usually lower than 1%. But scalping is a numbers game, so repeated small profits can add up over time.</string>
     <string name="lesson13_para2">Scalping is by no means a beginner’s strategy. An in-depth understanding of the markets, the platforms you’re trading on, and technical analysis are vital to success. That said, for traders that know what they’re doing, identifying the right patterns and taking advantage of short-term fluctuations can be highly profitable.</string>
 
-    <!-- Lesson 5.1 Strings   -->
+    <!-- Lesson 5a Strings   -->
     <string name="icon14Text">What is Limit Order</string>
     <string name="icon14Desc" translatable="false">a candlestick chart with buy and sell option</string>
     <string name="lesson14_para1">A limit order is an order to buy or sell an asset at a specific price or better. This price is called the limit price. Limit buy orders will execute at the limit price or lower, while limit sell orders will execute at the limit price or higher.</string>
@@ -173,7 +173,7 @@
     <string name="lesson14_para3">Using a limit order allows you to have more control over your entry or exit for a given market. In fact, it guarantees that your order will never fill at a worse price than your desired price. However, that also comes with a downside. The market may never reach your price, leaving your order unfilled. In many cases, this can mean losing out on a potential trade opportunity.</string>
     <string name="lesson14_para4">Deciding when to use a limit order or market order can vary with each trader. Some traders may use only one or the other, while other traders will use both – depending on the circumstances. The important thing is to understand how they work so you can decide for yourself.</string>
 
-    <!-- Lesson 5.2 Strings   -->
+    <!-- Lesson 5b Strings   -->
     <string name="icon5b_Text">What is Market Order</string>
     <string name="lesson5b_para1">A market order is an order to buy or sell at the best currently available market price. It’s basically the fastest way to get in or out of a market.</string>
     <string name="lesson5b_para2">When you’re setting a market order, you’re basically saying: “I’d like to execute this order right now at the best price I can get.”</string>
@@ -183,7 +183,7 @@
     <string name="lesson5b_para6">Let’s say you’d like to open a long position worth 10 BTC in an altcoin. However, this altcoin has a relatively small market cap and is being traded on a low-liquidity market. If you use a market order, it will keep filling orders from the order book until the entire 10 BTC order is filled. On a liquid market, you would be able to fill your 10 BTC order without impacting the price significantly. But, in this case, the lack of liquidity means that there may not be enough sell orders in the order book for the current price range.</string>
     <string name="lesson5b_para7">So, by the time the entire 10 BTC order is filled, you may find out that the average price paid was much higher than expected. In other words, the lack of sell orders caused your market order to move up the order book, matching orders that were significantly more expensive than the initial price.</string>
 
-    <!-- Lesson 5.3 Strings   -->
+    <!-- Lesson 5c Strings   -->
     <string name="icon15Text">What is Stop-Loss Order</string>
     <string name="icon15Desc" translatable="false">a person trying to stop his loss with a thread</string>
     <string name="lesson15_para1">Now that we know what market and limit orders are, let’s talk about stop-loss orders. A stop-loss order is a type of limit or market order that’s only activated when a certain price is reached. This price is called the stop price.</string>
@@ -191,11 +191,28 @@
     <string name="lesson15_para3">How does a stop-loss order work? As we’ve mentioned, the stop-loss can be both a limit or a market order. This is why these variants may also be referred to as stop-limit and stop-market orders. The key thing to understand is that the stop-loss only activates when a certain price is reached (the stop price). When the stop price is reached, it activates either a market or a limit order. You basically set the stop price as the trigger for your market or limit order.</string>
     <string name="lesson15_para4">However, there is one thing you should keep in mind. We know that limit orders only fill at the limit price or better, but never worse. If you’re using a stop-limit order as your stop-loss and the market crashes violently, it may instantly move away from your limit price, leaving your order unfilled. In other words, the stop price would trigger your stop-limit order, but the limit order would remain unfilled due to the sharp price drop. This is why stop-market orders are considered safer than stop-limit orders. They ensure that even under extreme market conditions, you’ll be guaranteed to exit the market once your invalidation point is reached.</string>
 
-    <!-- Lesson 5.4 Strings   -->
+    <!-- Lesson 5d Strings   -->
     <string name="icon5d_Text">What is OCO Order</string>
     <string name="lesson5d_para1">A One-Cancel-Other (OCO) order in Binance is a type of advanced trading order that allows traders to place two orders simultaneously: a stop-limit order and a limit order. This setup helps in managing risk and automating the trading process. When one of the orders is triggered and executed, the other order is automatically canceled. This can be particularly useful in volatile markets, as it ensures that a trader\'s position is managed effectively without the need for constant monitoring.</string>
     <string name="lesson5d_para2">For example, suppose you own some Bitcoin (BTC) and the current market price is $40,000. You might place an OCO order to sell BTC, setting a limit sell order at $45,000 and a stop-limit sell order at $35,000 with a stop price of $36,000. In this scenario, if the market price reaches $45,000, your BTC will be sold at that price, and the stop-limit order will be canceled. Conversely, if the price drops to $36,000, the stop-limit order will be triggered, attempting to sell your BTC at $35,000, and the limit sell order at $45,000 will be canceled.</string>
     <string name="lesson5d_para3">OCO orders are beneficial for traders who want to automate their trades with predefined conditions, helping to minimize losses and lock in profits without needing to manually manage each order. This functionality is especially useful during times of high market volatility, ensuring that traders can react to market movements promptly and efficiently.</string>
+
+    <!-- Lesson 6a Strings   -->
+    <string name="icon6a_title">Moving Average (MA)</string>
+    <string name="lesson6a_para1">Moving Average is an indicator used to represent the average closing price of the market over a specified period of time. Traders often make use of moving averages as it can be a good indication of current market momentum</string>
+    <string name="lesson6a_para2">The two most commonly used moving averages are the simple moving average (SMA) and the exponential moving average (EMA). The difference between these moving averages is that the simple moving average does not give any weighting to the averages in the data set whereas the exponential moving average will give more weighting to current prices</string>
+    <string name="lesson6a_para3">The moving average can be used to determine support and resistance levels once a trader has placed a trade.</string>
+    <string name="lesson6a_para4">If the trader sees the moving average trending higher, they may enter the market on a retest of the moving average. Likewise, if the trader is already long in an uptrend market, then the moving average can be used as a stop loss level. The opposite is true for down trends.</string>
+    <string name="lesson6a_para5">The charts below are examples of how the moving average can be used as a both a support and a resistance level.</string>
+
+    <!-- Lesson 6b Strings   -->
+    <string name="icon6b_title">Exponential Moving Average (EMA)</string>
+    <string name="lesson6b_para1">The Exponential Moving Average (EMA) is a type of moving average used in trading to smooth out price data and create a trend-following indicator. Unlike the Simple Moving Average (SMA), which gives equal weight to all data points in the period, the EMA gives more weight to recent prices. This makes the EMA more responsive to new information and quicker to reflect changes in the market.</string>
+    <string name="lesson6b_para2">For a quick scalping strategy on binance app using your phones you can use EMA 7 - EMA 25 and EMA 99</string>
+    <string name="lesson6b_para3">EMA 7 is the most important to look at here - for a possible short-term trading scenario, this is what you should look for:</string>
+    <string name="lesson6b_para4">EMA 7 crossing above EMA 25 or even EMA 99 at the same time is a very bullish scenario and you can long it as shown in the screenshot below as an example. This strategy is known as a golden cross.</string>
+    <string name="lesson6b_para5">For a possible short scenario, this is what you should look for:</string>
+    <string name="lesson6b_para6">EMA 7 crossing below EMA 25 or even EMA 99, this indicates weakness in the markets and on the trend of the markets overall. This is usually known as a death-cross. It can be used to scalp and to day trade. A very efficient and smart strategy. Check the screenshot below to see how it works</string>
 
     <!-- Lesson 17 Strings   -->
     <string name="icon17Text">Bullish Reversal Patterns</string>
@@ -238,5 +255,36 @@
     <string name="chapter_8_title">Bearish Reversal Patterns</string>
     <string name="chapter_9">Chapter 9</string>
     <string name="chapter_9_title">Continuation Patterns</string>
+
+    <string name="icon6c_title">Moving Average Convergence Divergence (MACD)</string>
+    <string name="icon6d_title">Relative Strength Index (RSI)</string>
+    <string name="icon6e_title">Bollinger Bands</string>
+    <string name="icon6f_title">Ichimoku Cloud</string>
+    <string name="lesson6c_para1">The Moving Average Convergence Divergence (MACD) is a technical indicator which simply measures the relationship of exponential moving averages (EMA).The MACD displays a MACD line (blue), signal line (red) and a histogram (green) - showing the difference between the MACD line and the signal line.</string>
+    <string name="lesson6c_para2">The MACD line is the difference between two exponentially levelled moving averages – usually 12 and 26-periods, whilst the signal line is generally a 9-period exponentially smoothed average of the MACD line.</string>
+    <string name="lesson6c_para3">These MACD lines waver in and around the zero line. This gives the MACD the characteristics of an oscillator giving overbought and oversold signals above and below the zero-line respectively.</string>
+    <string name="lesson6d_para1">Relative Strength Index, or RSI, is a popular indicator developed by a technical analyst named J. Welles Wilder, that helps traders evaluate the strength of the current market.</string>
+    <string name="lesson6d_para2">RSI is similar to Stochastic in that it identifies overbought and oversold conditions in the market.</string>
+    <string name="lesson6d_para3">It is also scaled from 0 to 100.</string>
+    <string name="lesson6d_para4">Typically, readings of 30 or lower indicate oversold market conditions and an increase in the possibility of price strengthening (going up). Some traders interpret that an oversold currency pair is an indication that the falling trend is likely to reverse, which means it’s an opportunity to buy. Some traders interpret that an overbought currency pair is an indication that the rising trend is likely to reverse, which means it’s an opportunity to sell.</string>
+    <string name="lesson6d_para5">Readings of 70 or higher indicate overbought conditions and an increase in the possibility of price weakening (going down).</string>
+    <string name="lesson6d_para6">In addition to the overbought and oversold indicators mentioned above, traders who use the Relative Strength Index (RSI) indicator also look for centerline crossovers. A movement from below the centerline (50) to above indicates a rising trend.</string>
+    <string name="lesson6d_para7">A rising centerline crossover occurs when the RSI value crosses ABOVE the 50 line on the scale, moving towards the 70 line. This indicates the market trend is increasing in strength, and is seen as a bullish signal until the RSI approaches the 70 line. A movement from above the centerline (50) to below indicates a falling trend.</string>
+    <string name="lesson6d_para8">A falling centerline crossover occurs when the RSI value crosses BELOW the 50 line on the scale, moving towards the 30 line. This indicates the market trend is weakening in strength, and is seen as a bearish signal until the RSI approaches the 30 line.</string>
+    <string name="lesson6e_para1">Bollinger Bands® are a versatile technical analysis indicator widely used among traders. John Bollinger first developed this indicator as a solution to find relative highs and lows in dynamic markets. The indicator itself is comprised of an upper band, lower band and moving average line.</string>
+    <string name="lesson6e_para2">The two trading bands are placed two standard deviations above and below the moving average (usually 20 periods). Using two standard deviations estimates that 95% of price data will be contained within the two bands.</string>
+    <string name="lesson6e_para3">As a rule of thumb, prices are deemed overbought on the upside when they touch the upper band and oversold on the downside when the reach the lower band. When bands contract there is less volatility in the market. Likewise, Bollinger Bands® will expand as the market becomes more volatile.</string>
+    <string name="lesson6e_para4">There are several different techniques involved in using Bollinger Bands® to trade. The most popular are:</string>
+    <string name="lesson6e_para5">Using market trends: Traders can identify entry signals using the bands as a measure of support and resistance.</string>
+    <string name="lesson6e_para6">The chart above shows the EUR/USD chart in an uptrend – depicted by higher highs and higher lows. Using the Bollinger Band® indicator, the lower band is seen as a gauge of support. When price touches the lower band, traders use this as a signal to enter a long (buy) trade. This strategy works for both uptrends and downtrends. Take profit (limit) levels are generally taken from the upper and lower bands depending on trend. In this example, the upper band will be used as the take profit level.</string>
+    <string name="lesson6e_para7">Bollinger Squeeze: Applying the volatility indications of the bands</string>
+    <string name="lesson6e_para8">Highlighted in green shows these breakouts in an uptrend. Traders will look to enter at the indicated green circles. After each entry, it can be seen that the candles are ‘walking the Bollinger‘ (following the upper band). After the breakout candle the bands expand implying greater volatility in the market.</string>
+    <string name="lesson6e_para9">The black shaded circles illustrate the point at which traders will look to take profit before looking for further breakout signals.</string>
+    <string name="lesson6f_para1">The Ichimoku Cloud is a TA indicator that combines many indicators in a single chart. Among the indicators we’ve discussed, the Ichimoku is certainly one of the most complicated. At first glance, it may be hard to understand its formulas and working mechanisms. But in practice, the Ichimoku Cloud is not as hard to use as it seems, and many traders use it because it can produce very distinct, well-defined trading signals.</string>
+    <string name="lesson6f_para2">As mentioned, the Ichimoku Cloud isn’t just an indicator, it’s a collection of indicators. It’s a collection that provides insights into market momentum, support and resistance levels, and the direction of the trend. It achieves this by calculating five averages and plotting them on a chart. It also produces a “cloud” from these averages which may forecast potential support and resistance areas.</string>
+    <string name="lesson6f_para3">While the averages play an important role, the cloud itself is a key part of the indicator. Generally, if the price is above the cloud, the market may be considered to be in an uptrend. Conversely, if the price is below the cloud, it may be considered to be in a downtrend.</string>
+    <string name="lesson6f_para4">The Ichimoku Cloud may also strengthen other trading signals.</string>
+    <string name="lesson6f_para5">The Ichimoku Cloud is difficult to master, but once you get your head around how it works, it can produce great results.</string>
+    <string name="icon6_desc">a screen showing a trading chart</string>
 
 </resources>

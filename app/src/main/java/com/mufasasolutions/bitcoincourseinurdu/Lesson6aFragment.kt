@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 //import com.google.android.gms.ads.AdRequest
-import com.mufasasolutions.bitcoincourseinurdu.databinding.FragmentLesson20Binding
+import com.mufasasolutions.bitcoincourseinurdu.databinding.FragmentLesson6aBinding
 
-class Lesson20Fragment : Fragment() {
+class Lesson6aFragment : Fragment() {
 
-    private lateinit var binding: FragmentLesson20Binding
+    private lateinit var binding: FragmentLesson6aBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +21,7 @@ class Lesson20Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding = FragmentLesson20Binding.inflate(layoutInflater, container, false)
+        binding = FragmentLesson6aBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 

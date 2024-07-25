@@ -23,62 +23,62 @@
             <ImageView
                 android:id="@+id/icon1"
                 style="@style/icon_image"
-                android:src="@drawable/icon1"
-                android:contentDescription="@string/icon1Desc" />
+                android:src="@drawable/icon6a"
+                android:contentDescription="@string/icon6_desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Moving Average (MA)" />
+                android:text="@string/icon6a_title" />
 
             <ImageView
                 android:id="@+id/icon2"
                 style="@style/icon_image"
-                android:src="@drawable/icon1"
-                android:contentDescription="@string/icon1Desc" />
+                android:src="@drawable/icon6b"
+                android:contentDescription="@string/icon6_desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Exponential Moving Average (EMA)" />
+                android:text="@string/icon6b_title" />
 
             <ImageView
                 android:id="@+id/icon3"
                 style="@style/icon_image"
-                android:src="@drawable/icon1"
-                android:contentDescription="@string/icon1Desc" />
+                android:src="@drawable/icon6c"
+                android:contentDescription="@string/icon6_desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Moving Average Convergence Divergence (MACD)" />
+                android:text="@string/icon6c_title" />
 
             <ImageView
                 android:id="@+id/icon4"
                 style="@style/icon_image"
-                android:src="@drawable/icon1"
-                android:contentDescription="@string/icon1Desc" />
+                android:src="@drawable/icon6d"
+                android:contentDescription="@string/icon6_desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Relative Strength Index (RSI)" />
+                android:text="@string/icon6d_title" />
 
             <ImageView
                 android:id="@+id/icon5"
                 style="@style/icon_image"
-                android:src="@drawable/icon1"
-                android:contentDescription="@string/icon1Desc" />
+                android:src="@drawable/icon6e"
+                android:contentDescription="@string/icon6_desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Bollinger Bands" />
+                android:text="@string/icon6e_title" />
 
             <ImageView
                 android:id="@+id/icon6"
                 style="@style/icon_image"
-                android:src="@drawable/icon1"
-                android:contentDescription="@string/icon1Desc" />
+                android:src="@drawable/icon6f"
+                android:contentDescription="@string/icon6_desc" />
 
             <TextView
                 style="@style/fragmentsTextStyle"
-                android:text="Ichimoku Cloud" />
+                android:text="@string/icon6f_title" />
 
         </LinearLayout>
 

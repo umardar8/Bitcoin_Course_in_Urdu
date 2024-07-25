@@ -26,7 +26,7 @@ class Chapter6Activity : AppCompatActivity() {
                     number -= 1
                 }
             } else if (item.itemId == R.id.next_button) {
-                if (number < 2) {
+                if (number < 6) {
                     number += 1
                 }
             } else {
@@ -46,7 +46,12 @@ class Chapter6Activity : AppCompatActivity() {
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         when (num) {
-            1 -> fragmentTransaction.replace(R.id.frameLayout, Lesson20Fragment())
+            1 -> fragmentTransaction.replace(R.id.frameLayout, Lesson6aFragment())
+            2 -> fragmentTransaction.replace(R.id.frameLayout, Lesson6bFragment())
+            3 -> fragmentTransaction.replace(R.id.frameLayout, Lesson6cFragment())
+            4 -> fragmentTransaction.replace(R.id.frameLayout, Lesson6dFragment())
+            5 -> fragmentTransaction.replace(R.id.frameLayout, Lesson6eFragment())
+            6 -> fragmentTransaction.replace(R.id.frameLayout, Lesson6fFragment())
         }
         fragmentTransaction.commit()
     }
