@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:scrollbars="vertical"
     tools:context=".Lesson10Fragment">
 
@@ -38,14 +39,11 @@
             style="@style/paragraphStyle"
             android:text="@string/lesson10_para4" />
 
-    <!--        <com.google.android.gms.ads.AdView-->
-    <!--            android:id="@+id/adView1"-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            ads:adSize="BANNER"-->
-    <!--            ads:adUnitId="@string/banner_adUnit"-->
-    <!--            android:layout_margin="@dimen/normal"-->
-    <!--            android:padding="@dimen/unit"/>-->
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView1"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_adUnit"
+                style="@style/fragment_banner_ad" />
 
     </LinearLayout>
 

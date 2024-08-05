@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:paddingVertical="@dimen/small"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context=".Chapter2Fragments">
 
     <ScrollView
         android:layout_width="match_parent"

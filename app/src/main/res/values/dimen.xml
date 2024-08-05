@@ -6,6 +6,7 @@
     <dimen name="paragraphSize">20sp</dimen>
     <dimen name="urduHeadingSize">30sp</dimen>
     <dimen name="unit">1dp</dimen>
+    <dimen name="tiny">5dp</dimen>
     <dimen name="small">10dp</dimen>
     <dimen name="normal">20dp</dimen>
     <dimen name="medium">50dp</dimen>

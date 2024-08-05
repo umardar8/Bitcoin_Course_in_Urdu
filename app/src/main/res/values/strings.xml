@@ -12,8 +12,8 @@
 
     <!-- AdMob Integration   -->
     <!-- Production   -->
-    <!--    <string name="adMob_Id" translatable="false"></string>-->
-    <!--    <string name="banner_adUnit" translatable="false"></string>-->
+            <string name="adMob_Id" translatable="false">ca-app-pub-5838182687945471~4666513756</string>
+            <string name="banner_adUnit" translatable="false">ca-app-pub-5838182687945471/1062478539</string>
     <!-- Sample   -->
     <!--    <string name="adMob_Id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
     <!--    <string name="banner_adUnit" translatable="false">ca-app-pub-3940256099942544/9214589741</string>-->
@@ -285,6 +285,6 @@
     <string name="lesson6f_para3">While the averages play an important role, the cloud itself is a key part of the indicator. Generally, if the price is above the cloud, the market may be considered to be in an uptrend. Conversely, if the price is below the cloud, it may be considered to be in a downtrend.</string>
     <string name="lesson6f_para4">The Ichimoku Cloud may also strengthen other trading signals.</string>
     <string name="lesson6f_para5">The Ichimoku Cloud is difficult to master, but once you get your head around how it works, it can produce great results.</string>
-    <string name="icon6_desc">a screen showing a trading chart</string>
+    <string name="icon6_desc" translatable="false">a screen showing a trading chart</string>
 
 </resources>

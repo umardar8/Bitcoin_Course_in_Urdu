@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 //import com.google.android.gms.ads.AdRequest
 import com.mufasasolutions.bitcoincourseinurdu.databinding.FragmentLesson7Binding
-
+import com.google.android.gms.ads.AdRequest
 class Lesson7Fragment : Fragment() {
 
     private lateinit var binding: FragmentLesson7Binding
@@ -25,11 +25,11 @@ class Lesson7Fragment : Fragment() {
         return binding.root
     }
 
-//    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-//        super.onViewCreated(view, savedInstanceState)
-//        val adView1 = binding.adView1
-//        val adRequest1 = AdRequest.Builder().build()
-//        adView1.loadAd(adRequest1)
-//    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val adView1 = binding.adView1
+        val adRequest1 = AdRequest.Builder().build()
+        adView1.loadAd(adRequest1)
+    }
 
 }

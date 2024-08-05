@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     tools:context=".Lesson6fFragment">
 
     <LinearLayout
@@ -51,14 +52,13 @@
             android:text="@string/lesson6f_para5" />
 
 
-        <!--        <com.google.android.gms.ads.AdView-->
-        <!--            android:id="@+id/adView1"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            ads:adSize="BANNER"-->
-        <!--            ads:adUnitId="@string/banner_adUnit"-->
-        <!--            android:layout_margin="@dimen/normal"-->
-        <!--            android:padding="@dimen/unit"/>-->
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_adUnit"
+                    android:padding="@dimen/unit"/>
 
     </LinearLayout>
 

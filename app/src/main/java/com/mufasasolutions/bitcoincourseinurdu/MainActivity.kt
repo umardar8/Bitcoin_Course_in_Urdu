@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
+import com.google.android.gms.ads.MobileAds
 import com.mufasasolutions.bitcoincourseinurdu.databinding.ActivityMainBinding
 //import com.google.android.gms.ads.AdRequest
 
@@ -16,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        MobileAds.initialize(this)
 
     //        val adView = binding.adView0
     //        val adRequest = AdRequest.Builder().build()

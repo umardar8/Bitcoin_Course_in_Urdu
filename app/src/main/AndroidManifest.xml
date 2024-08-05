@@ -176,9 +176,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.mufasasolutions.bitcoincourseinurdu.MainActivity" />
         </activity>
-        <!-- <meta-data -->
-        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
-        <!-- android:value="@string/adMob_Id"/> -->
+         <meta-data
+         android:name="com.google.android.gms.ads.APPLICATION_ID"
+         android:value="@string/adMob_Id"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
